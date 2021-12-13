@@ -33,4 +33,11 @@ h3
     margin-top: 20px;
     margin-bottom: 15px;
 }
-
+p 
+{
+    font-size: 20px;
+    margin: 16px 0px;
+    width: 65%;
+    max-width: 850px;
+    padding-right: 10px;
+}
