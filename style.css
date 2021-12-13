@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Nova+Square);
 body 
 {
 	background-color: #EEEEEE;
@@ -45,6 +46,39 @@ header *
 {
 	box-shadow: 30px 20px #7AB3B0;
 	border-radius: 3px;
+}
+h1, h2, h3, h4, h5, h6 
+{
+	font-family: 'Nova Square', cursive;
+}
+h1 
+{
+	font-size: 3.75rem;
+	margin-bottom: 20px;
+}
+h2 
+{
+	font-size: 2rem;
+}
+h3 {
+	font-size: 1.5rem;
+}
+p {
+	font-size: 1.25rem;
+	margin-bottom: 0;
+}
+a 
+{
+	text-decoration: none;
+	color: #00008b;
+}
+article a, h1 
+{
+	color: #E23045;
+}
+ul
+{
+	padding: 0;
 }
 li 
 {
