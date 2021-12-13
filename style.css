@@ -28,4 +28,17 @@ header *
 	padding: 30px 10px;
 	margin: 15px 0 20px 0;
 }
+#zen-supporting
+{
+	background-color: #FFF6E0;
+	border: 1px solid #333333;
+	padding: 20px 20px;
+	margin: 10px 0;
+} 
+.main 
+{
+	width: 65%;
+	display: inline-block;
+	min-width: 475px;
+}
 
