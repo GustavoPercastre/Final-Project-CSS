@@ -10,4 +10,22 @@ body
 	margin: 0 auto;
 	min-width: 475px;
 }
+header * 
+{
+	margin: 15px 0;
+}
+.intro h2 
+{ 
+	color: #FFF6E0;
+	background-color: #E23045; 
+	border-radius: 3px;
+	padding: 10px 5px;
+}
+.summary, .preamble 
+{
+	color: #FFF6E0;
+	background-color: #1B4549;
+	padding: 30px 10px;
+	margin: 15px 0 20px 0;
+}
 
