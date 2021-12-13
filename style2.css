@@ -62,4 +62,7 @@ aside.sidebar
     top: 300px;
     padding: 10px 30px;
 }
-
+#zen-summary p:first-child 
+{
+    margin-top: 40px;
+}
