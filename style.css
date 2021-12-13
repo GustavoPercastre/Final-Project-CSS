@@ -63,4 +63,15 @@ li
 	margin-left: 7%;
 	min-width: 225px;
 }
-
+footer 
+{
+	margin-top: 60px;
+	text-align: right;
+}
+footer a 
+{
+	background-color: #908673;
+	box-shadow: 10px 10px #D8CFBC;
+	padding: 5px 10px;
+	border-radius: 3px;
+}
