@@ -51,4 +51,7 @@ ul
     list-style: none;
     padding: 0;
 }
-
+header, .page-wrapper
+{
+    padding: 10px 30px 10px 80px;
+}
