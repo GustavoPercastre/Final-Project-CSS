@@ -5,6 +5,7 @@ body
 	font-family: sans-serif;
 	margin: 25px;
 	font-size: 20px;
+	line-height: 125%;
 }
 .page-wrapper 
 {
@@ -58,7 +59,7 @@ main
 .main 
 {
 	grid-area: 1 / 2 / auto / 5;
-	min-width: 23.7em;
+	width: 35em;
 }
 .main, .preamble 
 {
@@ -129,7 +130,6 @@ li
 .sidebar 
 {
 	margin-left: 7%;
-	min-width: 11.2em;
 }
 .sidebar .wrapper
 {
