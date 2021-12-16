@@ -12,7 +12,7 @@ h1
 {
     font-family: "Monoton", sans-serif;
     font-weight: normal;
-    margin-top: 1.3empx;
+    margin-top: 1.3em;
     margin-bottom: .7em;
     font-size: 4.3em;
     text-shadow: 0px 0px .4em rgba(255,20,147, 1);
@@ -31,8 +31,6 @@ h2, h3
 }
 h2 
 {
-    
-    
     font-size: 2.5em;
 }
 h3 
@@ -44,7 +42,7 @@ h3
 p 
 {
     font-size: 1em;
-    margin: .5empx 0px;
+    margin: .5em 0px;
     width: 42.5em;
     padding-right: .3em;
 }
@@ -52,6 +50,14 @@ a
 {
     text-decoration: none;
     color: deeppink;
+}
+a:hover
+{
+
+}
+a:active
+{
+
 }
 abbr
 {
