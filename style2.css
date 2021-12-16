@@ -5,6 +5,7 @@ body
     padding: 0;
     background-color: #000;
     color: #fff;
+    font-size: 20px;
     font-family: "Rajdhani", sans-serif;
 }
 h1
@@ -17,18 +18,25 @@ h1
     text-shadow: 0px 0px 12px rgba(255,20,147, 1);
     color: deeppink;
 }
-h2 
+h2 abbr
+{
+    text-decoration: none;
+}
+h2, h3
 {
     font-family: "Rajdhani", sans-serif;
     text-shadow: 0px 0px 12px rgba(255, 255, 255, 0.6);
     font-weight: 700;
+
+}
+h2 
+{
+    
+    
     font-size: 52px;
 }
 h3 
 {
-    font-family: "Rajdhani", sans-serif;
-    text-shadow: 0px 0px 12px rgba(255, 255, 255, 0.6);
-    font-weight: 700;
     font-size: 38px;
     margin-top: 20px;
     margin-bottom: 15px;
@@ -62,7 +70,7 @@ aside.sidebar
     top: 300px;
     padding: 10px 30px;
 }
-#zen-summary p:first-child 
+#zen-summary, p:first-child 
 {
     margin-top: 40px;
 }

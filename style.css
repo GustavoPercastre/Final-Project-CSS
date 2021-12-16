@@ -3,11 +3,11 @@ body
 {
 	background-color: #EEEEEE;
 	font-family: sans-serif;
+	margin: 25px;
 }
 .page-wrapper 
 {
 	padding: 50px 0;
-	width: 55%;
 	margin: 0 auto;
 	min-width: 475px;
 }
@@ -15,6 +15,7 @@ header *
 {
 	margin: 15px 0;
 }
+
 .intro h2 
 { 
 	color: #FFF6E0;
@@ -38,8 +39,7 @@ header *
 } 
 .main 
 {
-	width: 65%;
-	display: inline-block;
+	grid-area: 1 / 2 / auto / 5;
 	min-width: 475px;
 }
 .main, .preamble 
@@ -88,14 +88,13 @@ li
 	box-shadow: 10px 10px #F59F81;
 	text-align: center;
 	background-color: #E23045;
-	margin: 5px 0;
-	padding: 7px 0;
+	margin-bottom: 15px;
+	padding: 7px 7px;
 	font-weight: bold;
 	border-radius: 2px;
 }
 .sidebar 
 {
-	width: 25%;
 	margin-left: 7%;
 	min-width: 225px;
 }
