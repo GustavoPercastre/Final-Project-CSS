@@ -15,6 +15,7 @@ body
 header * 
 {
 	margin: 1.2em 0;
+	text-decoration: none !important;
 }
 .page-wrapper
 {
@@ -86,10 +87,14 @@ p
 	font-size: 1.25rem;
 	margin-bottom: 0;
 }
+abbr
+{
+	text-decoration: underline;
+}
 a 
 {
 	text-decoration: none;
-	color: #00008b;
+	color: #E23045;
 }
 article a, h1 
 {
