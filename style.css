@@ -94,7 +94,19 @@ abbr
 a 
 {
 	text-decoration: none;
+	color: #1B4549;
+}
+a:hover
+{
 	color: #E23045;
+}
+a:active
+{
+	color: #7AB3B0;
+}
+a:visited
+{
+	color: red;
 }
 article a, h1 
 {
