@@ -4,24 +4,25 @@ body
 	background-color: #EEEEEE;
 	font-family: sans-serif;
 	margin: 25px;
+	font-size: 20px;
 }
 .page-wrapper 
 {
-	padding: 50px 0;
+	padding: 2.2em 0;
 	margin: 0 auto;
-	min-width: 475px;
+	min-width: 23.7em;
 }
 header * 
 {
-	margin: 15px 0;
+	margin: 1.2em 0;
 }
 .page-wrapper
 {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(4, 1fr);
-	row-gap: 25px;
-	column-gap: 25px;
+	row-gap: 2em;
+	column-gap: 2em;
 }
 .intro
 {
@@ -35,31 +36,31 @@ main
 { 
 	color: #FFF6E0;
 	background-color: #E23045; 
-	border-radius: 3px;
-	padding: 10px 5px;
+	border-radius: 1px;
+	padding: .5em .3em;
 }
 .summary, .preamble 
 {
 	color: #FFF6E0;
 	background-color: #1B4549;
-	padding: 30px 10px;
-	margin: 15px 0 20px 0;
+	padding: 1.3em .5em;
+	margin: .7em 0 1em 0;
 }
 #zen-supporting
 {
 	background-color: #FFF6E0;
 	border: 1px solid #333333;
-	padding: 20px 20px;
-	margin: 10px 0;
+	padding: 1em 1em;
+	margin: .5em 0;
 } 
 .main 
 {
 	grid-area: 1 / 2 / auto / 5;
-	min-width: 475px;
+	min-width: 23.7em;
 }
 .main, .preamble 
 {
-	box-shadow: 30px 20px #7AB3B0;
+	box-shadow: 1em 1em #7AB3B0;
 	border-radius: 3px;
 }
 h1, h2, h3
@@ -69,7 +70,7 @@ h1, h2, h3
 h1 
 {
 	font-size: 3.75rem;
-	margin-bottom: 20px;
+	margin-bottom: 1em;
 }
 h2 
 {
@@ -100,25 +101,25 @@ ul
 li 
 {
 	list-style-type: none;
-	box-shadow: 10px 10px #F59F81;
+	box-shadow: .5em .5em #F59F81;
 	text-align: center;
 	background-color: #E23045;
-	margin-bottom: 15px;
-	padding: 7px 7px;
+	margin-bottom: 1em;
+	padding: .5em .5em;
 	font-weight: bold;
 	border-radius: 2px;
 }
 .sidebar 
 {
 	margin-left: 7%;
-	min-width: 225px;
+	min-width: 11.2em;
 }
 .sidebar .wrapper
 {
 	display: grid;
 	grid-template-rows: 1fr;
 	grid-template-columns: 1fr 1fr 1fr;
-	column-gap: 25px;
+	column-gap: 1.5em;
 
 }
 aside.sidebar
@@ -127,13 +128,13 @@ aside.sidebar
 }
 footer 
 {
-	margin-top: 60px;
+	margin-top: 4em;
 	text-align: right;
 }
 footer a 
 {
 	background-color: #908673;
-	box-shadow: 10px 10px #D8CFBC;
-	padding: 5px 10px;
+	box-shadow: .5em .5em #D8CFBC;
+	padding: .3em .5em;
 	border-radius: 3px;
 }
