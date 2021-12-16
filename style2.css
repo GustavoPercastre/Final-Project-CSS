@@ -58,7 +58,7 @@ ul
     list-style: none;
     padding: 0;
 }
-header, .page-wrapper
+.page-wrapper
 {
     padding: 4em;
 }
