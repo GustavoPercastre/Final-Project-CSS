@@ -104,11 +104,10 @@ li
 	list-style-type: none;
 	box-shadow: .5em .5em #F59F81;
 	text-align: center;
-	background-color: #E23045;
 	margin-bottom: 1em;
 	padding: .5em .5em;
 	font-weight: bold;
-	border-radius: 2px;
+	border: .5em solid #E23045;
 }
 .sidebar 
 {
